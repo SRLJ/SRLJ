@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRLJ | Trade-In FAQ</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f8f8;
+  color: #111;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image: radial-gradient(circle at 10% 10%, #fff, #f2f2f2 80%);
+}
+nav {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: #111;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+nav a:hover { color: #666; }
+header {
+  position: relative;
+  text-align: center;
+  height: 50vh;
+  border-bottom: 1px solid #ddd;
+  background: linear-gradient(135deg, #ffffff, #eaeaea);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  width: 220px;
+  filter: drop-shadow(0 0 8px rgba(0,0,0,0.2));
+  opacity: 0;
+  animation: fadeInDown 1.8s ease forwards;
+}
+header p.tagline {
+  font-size: 1.3rem;
+  color: #333;
+  margin-top: 1rem;
+  opacity: 0;
+  animation: fadeInUp 2s ease forwards 0.5s;
+}
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+section {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.05);
+}
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.faq-item {
+  margin-bottom: 1.5rem;
+}
+.faq-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+.faq-item p {
+  color: #333;
+}
+ul {
+  margin-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: #777;
+  border-top: 1px solid #ddd;
+  background: #fff;
+  margin-top: 4rem;
+}
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="sell.html">Sell to Us</a></li>
+    <li><a href="tradein-faq.html">Trade-In FAQ</a></li>
+    <li><a href="legal.html">Support</a></li>
+  </ul>
+</nav>
+
+<header>
+  <img src="images/srlj_logo.png" alt="SRLJ Logo">
+  <p class="tagline">Trade-in questions, answered simply.</p>
+</header>
+
+<section>
+  <h2>Trade-In FAQ</h2>
+
+  <div class="faq-item">
+    <h3>What devices do you accept?</h3>
+    <p>We mainly accept smartphones, tablets, and gaming consoles. In some cases we may also consider handhelds and accessories if they’re bundled with a console or device.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I start a trade-in?</h3>
+    <p>Go to the <a href="sell.html">Sell to Us</a> page and fill in the form with your device details. Once submitted, we’ll review your info and contact you with a quote and the next steps.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How is the price decided?</h3>
+    <p>Your quote is based on:</p>
+    <ul>
+      <li>Current market value for your specific model and storage</li>
+      <li>Overall condition (cosmetic and functional)</li>
+      <li>Included accessories (box, charger, controllers, etc.)</li>
+    </ul>
+    <p>We aim to be clear and fair, with no hidden fees or last-minute deductions.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What conditions do you accept?</h3>
+    <p>We accept devices in:</p>
+    <ul>
+      <li><strong>Excellent / Good:</strong> Fully working, light or minor wear.</li>
+      <li><strong>Fair:</strong> More noticeable wear, but still working.</li>
+      <li><strong>Faulty:</strong> Not working properly, broken screens, battery issues, etc. Faulty devices are still considered, just at a different price point.</li>
+    </ul>
+  </div>
+
+  <div class="faq-item">
+    <h3>Do I need to remove my data?</h3>
+    <p>Yes. Please back up and factory reset your device and remove any accounts (such as iCloud, Google, or console profiles). This keeps your data safe and speeds up processing.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I send my device to you?</h3>
+    <p>Once you accept a quote, we’ll confirm packing and shipping steps with you. In most cases you’ll send the device using tracked postage and share the tracking number so we can monitor its progress.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What happens when you receive my device?</h3>
+    <p>We inspect the device to confirm the condition matches the details you provided. If everything lines up, we approve the original quote. If there’s a difference (for example, more damage than stated), we’ll contact you with an updated offer before proceeding.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How and when do I get paid?</h3>
+    <p>Once your device is checked and the quote is confirmed, payment is typically made by bank transfer. We’ll confirm the payment method and timeframe when you accept your quote.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can I change my mind?</h3>
+    <p>If you haven’t sent the device yet, you can cancel at any time. If you’ve sent it and don’t want to accept a revised quote, we can arrange to return the device to you (return postage may apply).</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Who do I contact if I’ve got a question?</h3>
+    <p>You can reach us by email at <a href="mailto:Jake@srlj.co.uk">Jake@srlj.co.uk</a>. For anything urgent about a trade-in you’ve already started, please include your name and device details so we can find your enquiry quickly.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 SRLJ — Built with purpose, not just pixels.</p>
+</footer>
+
+</body>
+</html>
